@@ -1,0 +1,25 @@
+.paginationMainDiv{
+    width: 100%;
+}
+.pagination{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 41px 207px 20px 207px;
+    width: inherit;
+}
+.page-item>a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    list-style-type: none; 
+    color: black;
+}
+.page-item{
+    background-color: rgb(128, 132, 133);
+    padding: 10px;
+    border-radius: 50%;
+}
+.active{
+    background-color: rgb(214 153 216);
+    
+}
